@@ -1,0 +1,11 @@
+[env]
+MISE_PYTHON_DEFAULT_PACKAGES_FILE="/home/felix/.config/mise/python-packages"
+
+[tools]
+go = "latest"
+node = "lts"
+pnpm = "latest"
+python = "latest"
+lua = "latest"
+java = "temurin"
+bun = "latest"
