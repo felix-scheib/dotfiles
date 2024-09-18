@@ -1,0 +1,35 @@
+# https://alacritty.org/config-alacritty.html
+
+import = [
+    "~/.config/alacritty/themes/tokyonight_night.toml"
+]
+
+[font]
+size = 12
+builtin_box_drawing = false
+
+# https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/GeistMono
+[font.normal]
+family = "Hack Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "Hack Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "Hack Nerd Font"
+style = "Italic"
+
+[font.bold_italic]
+family = "Hack Nerd Font"
+style = "Bold Italic"
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[window]
+startup_mode = "Maximized"
+
+[selection]
+save_to_clipboard = true
