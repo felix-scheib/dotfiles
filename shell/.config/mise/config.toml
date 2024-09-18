@@ -1,5 +1,6 @@
 [env]
 MISE_PYTHON_DEFAULT_PACKAGES_FILE="/home/felix/.config/mise/python-packages"
+MISE_NODE_DEFAULT_PACKAGES_FILE="/home/felix/.config/mise/node-packages"
 
 [tools]
 go = "latest"
@@ -9,3 +10,6 @@ python = "latest"
 lua = "latest"
 java = "temurin"
 bun = "latest"
+
+[settings]
+experimental = true
