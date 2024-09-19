@@ -1,6 +1,6 @@
-[submodule "neovim"]
-	path = neovim
-	url = https://github.com/felix-scheib/neovim.git
 [submodule "shell/.antidote"]
 	path = shell/.antidote
 	url = https://github.com/mattmc3/antidote.git
+[submodule "nvim"]
+	path = nvim
+	url = git@github.com:felix-scheib/Neovim.old.git
